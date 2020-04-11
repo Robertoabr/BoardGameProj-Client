@@ -4,9 +4,11 @@ import './App.css';
 
 function App() {
   useEffect(() => {
-    fetch('/users')
+    fetch('/test')
       .then((response) => response.text())
-      .then((data) => console.warn({ data }));
+      .then((data) => {
+        console.log(data);
+      });
   }, []);
 
   return (
