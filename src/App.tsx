@@ -6,7 +6,7 @@ function App() {
   useEffect(() => {
     fetch('/users')
       .then((response) => response.text())
-      .then((data) => console.log({ data }));
+      .then((data) => console.warn({ data }));
   }, []);
 
   return (
