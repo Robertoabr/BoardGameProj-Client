@@ -13,6 +13,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Board Game App</h1>
       <SignIn />
     </div>
   );
