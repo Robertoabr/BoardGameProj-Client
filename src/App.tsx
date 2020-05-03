@@ -4,7 +4,7 @@ import LoginPage from './pages/LoginPage';
 
 function App() {
   useEffect(() => {
-    fetch('/test')
+    fetch('/users')
       .then((response) => response.text())
       .then((data) => {
         console.log(data);
