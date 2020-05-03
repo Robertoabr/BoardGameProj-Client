@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
-import SignIn from './pages/SignIn';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   useEffect(() => {
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <h1>Board Game App</h1>
-      <SignIn />
+      <LoginPage />
     </div>
   );
 }

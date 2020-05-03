@@ -11,8 +11,11 @@
     "@types/jest": "^24.9.1",
     "@types/node": "^12.12.34",
     "@types/react-dom": "^16.9.6",
+    "bootstrap": "^4.4.1",
     "husky": "^4.2.5",
+    "node-sass": "^4.14.0",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
     "typescript": "^3.7.5"
